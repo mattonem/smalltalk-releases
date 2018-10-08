@@ -4,7 +4,7 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec
-				baseline: 'Parasol'
+				baseline: 'GToolkit'
 				with: [ spec
-						repository: 'github://SeasideSt/Parasol/repository';
+						repository: 'github://feenkcom/gtoolkit/src';
 						loads: #default ] ]
