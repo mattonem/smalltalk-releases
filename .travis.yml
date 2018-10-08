@@ -1,0 +1,21 @@
+language: smalltalk
+sudo: false
+
+# Select operating system(s)
+os:
+  - linux
+
+# Select compatible Smalltalk image(s)
+smalltalk:
+  - Pharo-stable
+  
+deploy:
+  provider: releases
+  api_key:
+    secure: <key>
+  file: 
+    - /home/travis/smalltalkCI-master/_builds/TravisCI.changes
+    - /home/travis/smalltalkCI-master/_builds/TravisCI.image
+  skip_cleanup: true
+  on:
+    tags: true
