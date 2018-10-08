@@ -1,21 +1,15 @@
 language: smalltalk
 sudo: false
-
-# Select operating system(s)
 os:
-  - linux
-
-# Select compatible Smalltalk image(s)
+- linux
 smalltalk:
-  - Pharo-stable
-  
+- Pharo-stable
 deploy:
   provider: releases
   api_key:
-    secure: <key>
+    secure: HhwGxokgqv1kZf1CcSzOLP5hqIkF/kM8x0XmoE92cJ8j6naR4+L0OuFYmsWFIsPqKwN1QwB2Lo4N1NZ6wdLRaKZRbfUS6+jmrVRoknFG1xqKx7WjITzhWKKOucXJsNPOxmbasJyWD8SaG9McPZgzfO4PymFgnPWaganL7tmGdMMJMFYl5voGDlhq3Upjs4EFQKpsUKrUzCaFfLqQVMONK3J1gv/yByPS+mHkDX9guNdUHSh/E67Eu7xNdzhLI0EzQyqZyug7qmUu6SqWmKDwPhsVEOBo2fgny/M/w3uLNoMxVlNWfJmmQp5va1yaPxBeGz7f3vkAREtBO5VYvPTjLR92EIZc2zFukH/BAOQAKZhFzNy8o7zXHM0SP8FzK09EeDEnUbfxv/rTwDAyTaNErLYlZqFYG3pOLBMC51Y6+Lr2+yZem3upZ7B/fTK4DEBJDmOdhl1KpB0oFynoTJF0KuLHSh58WVhClIZjTygPqrxxajQmww06bGbCWvDlbnB8QSlcUTddM6M24+iTx9eVjI6V8wDA7Gt55p8n9cFmK8iPwh6BZ3ucfUGhgLyf0lLat87FW3C8nBF0hv7r7SZbFKiTOMGYpA4u3HU7mbMD9stS8BDDPT62ON7+ukBmlMOpWQEKTHCKOPn5BDG5NxX4gan+jr7KAcWPVRsefDsaulI=
   file: 
     - /home/travis/smalltalkCI-master/_builds/TravisCI.changes
     - /home/travis/smalltalkCI-master/_builds/TravisCI.image
-  skip_cleanup: true
   on:
     tags: true
