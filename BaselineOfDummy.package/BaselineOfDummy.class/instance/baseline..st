@@ -4,7 +4,7 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec
-				baseline: 'Parasol'
+				baseline: 'PharoLauncher'
 				with: [ spec
-						repository: 'github://SeasideSt/Parasol/repository';
+						repository: 'github://mattonem/pharo-launcher/repository/src';
 						loads: #default ] ]
