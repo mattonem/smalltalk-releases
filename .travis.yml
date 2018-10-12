@@ -3,7 +3,7 @@ sudo: false
 os:
 - linux
 smalltalk:
-  - Pharo-7.0
+  - Pharo-6.0
 deploy:
   provider: releases
   api_key:
