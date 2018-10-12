@@ -6,5 +6,5 @@ baseline: spec
 		do: [ spec
 				baseline: 'PharoLauncher'
 				with: [ spec
-						repository: 'github://mattonem/pharo-launcher/src';
+						repository: 'github://mattonem/pharo-launcher:development/src';
 						loads: #default ] ]
