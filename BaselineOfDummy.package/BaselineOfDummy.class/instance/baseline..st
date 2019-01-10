@@ -4,7 +4,7 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec
-				baseline: 'Parasol'
+				baseline: 'Roassal2'
 				with: [ spec
-						repository: 'github://SeasideSt/Parasol/repository';
+						repository: 'github://ObjectProfile/Roassal2/src';
 						loads: #default ] ]
