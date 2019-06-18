@@ -6,5 +6,5 @@ baseline: spec
 		do: [ spec
 				baseline: 'WillowChat'
 				with: [ spec
-						repository: 'github://mattonem/WillowChat:master/src';
+						repository: 'github://mattonem/WillowChat:add-gameOfLife/src';
 						loads: #default ] ]
