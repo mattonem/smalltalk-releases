@@ -4,7 +4,7 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec
-				baseline: 'Parasol'
+				baseline: 'WillowChat'
 				with: [ spec
-						repository: 'github://SeasideSt/Parasol/repository';
+						repository: 'github://mattonem/WillowChat:master/src';
 						loads: #default ] ]
